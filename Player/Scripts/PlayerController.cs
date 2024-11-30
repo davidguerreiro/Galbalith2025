@@ -18,12 +18,6 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveInput;
     private Vector3 velocity;
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void FixedUpdate()
     {
         if (canMove)
@@ -55,6 +49,22 @@ public class PlayerController : MonoBehaviour
 
         Vector3 finalMovement = moveInput.normalized * moveSpeed * Time.deltaTime + velocity * Time.deltaTime;
         _controller.Move(finalMovement);
+    }
+
+    /// <summary>
+    /// Allow player control.
+    /// </summary>
+    public void AllowPlayerControl()
+    {
+        canMove = true;
+    }
+
+    /// <summary>
+    /// Restrict player control.
+    /// </summary>
+    public void RestrictPlayerControl()
+    {
+        canMove = false;
     }
 
     /// <summary>

@@ -12,9 +12,6 @@ public class PlayerAnims : MonoBehaviour
     {
         CheckMoveAnim();
     }
-    private void FixedUpdate()
-    {
-    }
 
     /// <summary>
     /// Check moving anim status.
@@ -24,6 +21,11 @@ public class PlayerAnims : MonoBehaviour
         if (anim != null && _playerController != null)
         {
             anim.SetBool("IsMoving", _playerController.isMoving);
+        }
+
+        if (! _playerController.canMove)
+        {
+            anim.SetBool("IsMoving", false);
         }
     }
 
