@@ -13,7 +13,7 @@ public class NumericVariableConditionalLogic : ConditionalLogic
         isHigherThan,
     };
 
-    [Header("Trigger Logic")]
+    [Space(10)]
     [SerializeField]
     private Condition condition;
 
@@ -25,20 +25,16 @@ public class NumericVariableConditionalLogic : ConditionalLogic
     {
         int value = variables.GetValue(variableToCheck);
 
-        if (condition == Condition.isLowerThan)
+        switch (condition)
         {
-            return isLowerThan(value);
-        }
-        else if (condition == Condition.isEqualTo)
-        {
-            return isEqualTo(value);
-        }
-        else if (condition == Condition.isHigherThan)
-        {
-            return isHigherThan(value);
-        } else
-        {
-            return false;
+            case Condition.isLowerThan:
+                return isLowerThan(value);
+            case Condition.isEqualTo:
+                return isEqualTo(value);
+            case Condition.isHigherThan:
+                return isHigherThan(value);
+            default:
+                return false;
         }
     }
 
