@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9256164fa39e346518c82ccdbd7227f6
+timeCreated: 1519828883
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6835
+  packageName: Cemetery Starter Pack
+  packageVersion: 1.3
+  assetPath: Assets/BitGem/Cemetery_Starter_Set/Prefabs/Mobile/fence_cemetery_04_mobile.prefab
+  uploadId: 232378

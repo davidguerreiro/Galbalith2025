@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 57f1447116b544da687c7b72b7c59aeb
+timeCreated: 1519828966
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6835
+  packageName: Cemetery Starter Pack
+  packageVersion: 1.3
+  assetPath: Assets/BitGem/Cemetery_Starter_Set/Prefabs/Mobile/pedestal_fragmented_1_mobile.prefab
+  uploadId: 232378

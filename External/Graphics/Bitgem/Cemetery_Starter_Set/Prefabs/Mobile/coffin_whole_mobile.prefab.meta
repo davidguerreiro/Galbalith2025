@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 62d641ee1f757480da329afb456b7d9c
+timeCreated: 1519828887
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6835
+  packageName: Cemetery Starter Pack
+  packageVersion: 1.3
+  assetPath: Assets/BitGem/Cemetery_Starter_Set/Prefabs/Mobile/coffin_whole_mobile.prefab
+  uploadId: 232378

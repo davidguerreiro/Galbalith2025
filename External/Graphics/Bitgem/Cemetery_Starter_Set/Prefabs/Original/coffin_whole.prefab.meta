@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3f8ae419c6b95495e9f89207b2b8fb17
+timeCreated: 1519829073
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6835
+  packageName: Cemetery Starter Pack
+  packageVersion: 1.3
+  assetPath: Assets/BitGem/Cemetery_Starter_Set/Prefabs/Original/coffin_whole.prefab
+  uploadId: 232378

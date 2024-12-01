@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ad176c1f6cf724a498507cb07b6966c5
+timeCreated: 1519829060
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6835
+  packageName: Cemetery Starter Pack
+  packageVersion: 1.3
+  assetPath: Assets/BitGem/Cemetery_Starter_Set/Prefabs/Original/fence_cemetery_pillar.prefab
+  uploadId: 232378
