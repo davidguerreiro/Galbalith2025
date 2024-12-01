@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cca470c27a301624db3cbfd424360256
+timeCreated: 1492272783
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GardenBed_Pumpkin.prefab
+  uploadId: 479688

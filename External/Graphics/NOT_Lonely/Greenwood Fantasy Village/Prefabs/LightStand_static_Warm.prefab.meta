@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 12226e55ddc3c1742a2981d9520cc25b
+timeCreated: 1492705672
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/LightStand_static_Warm.prefab
+  uploadId: 479688

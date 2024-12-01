@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd7165f97dfe9944dace032e05af8ba2
+timeCreated: 1480868993
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/MillBarn_mtl.mat
+  uploadId: 479688

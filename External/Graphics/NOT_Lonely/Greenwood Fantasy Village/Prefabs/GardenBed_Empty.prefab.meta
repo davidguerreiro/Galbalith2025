@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 081f18bb409212c4298009b4fd5b89c2
+timeCreated: 1492271650
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GardenBed_Empty.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 697059acffd4fa8459e35c493cb12629
+timeCreated: 1500533540
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_Specular2sided.shader
+  uploadId: 479688

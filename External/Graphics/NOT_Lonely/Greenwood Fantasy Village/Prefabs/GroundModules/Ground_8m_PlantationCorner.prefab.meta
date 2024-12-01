@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8420f2c6e61bf79409e8423dcfa5db83
+timeCreated: 1492429096
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GroundModules/Ground_8m_PlantationCorner.prefab
+  uploadId: 479688

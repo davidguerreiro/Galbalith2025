@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e8e65e03f21486b4d96621ad9692b6d7
+timeCreated: 1492192912
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/PlantsLODs_mtl.mat
+  uploadId: 479688

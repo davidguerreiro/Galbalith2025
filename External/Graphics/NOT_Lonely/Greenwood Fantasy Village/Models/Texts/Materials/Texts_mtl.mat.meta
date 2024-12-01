@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4588d6ae408413f48a043938b3f4ac9f
+timeCreated: 1491591167
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Texts/Materials/Texts_mtl.mat
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 128ddf5afb5a8724098f98e5ab6f716c
+timeCreated: 1492272734
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GardenBed_Onion.prefab
+  uploadId: 479688

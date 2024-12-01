@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a31ccb8f82fdee64891b059e8f55120f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_skybox.shader
+  uploadId: 479688

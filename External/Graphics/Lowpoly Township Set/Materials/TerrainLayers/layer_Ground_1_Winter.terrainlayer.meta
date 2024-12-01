@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee06c8fef0626e14299a5df3a5579a0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22258
+  packageName: Lowpoly Township Set
+  packageVersion: 5.0
+  assetPath: Assets/Lowpoly Township Set/Materials/TerrainLayers/layer_Ground_1_Winter.terrainlayer
+  uploadId: 697648

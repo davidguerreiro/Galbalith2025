@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 30bfeb6dfb7dc2c4fa6fc6f753583615
+timeCreated: 1491210664
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/InventoryProps/Ladder.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fb75d8c4a8051df4f85465dcd2adc8b2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_GroundVertexBlend(LambertNoNormal).shader
+  uploadId: 479688

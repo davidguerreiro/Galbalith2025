@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8309659c49cc76c4fadf5f207ec1a768
+timeCreated: 1491069000
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/GardenBedSoil_d.mat
+  uploadId: 479688

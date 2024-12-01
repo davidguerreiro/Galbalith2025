@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 32cb9422c049f2e4f83d8eb4123fcb3e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_fire.shader
+  uploadId: 479688

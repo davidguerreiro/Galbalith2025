@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d300b1e076534d645b0673213c6da79c
+timeCreated: 1491306505
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/HouseA_01_day_mtl.mat
+  uploadId: 479688

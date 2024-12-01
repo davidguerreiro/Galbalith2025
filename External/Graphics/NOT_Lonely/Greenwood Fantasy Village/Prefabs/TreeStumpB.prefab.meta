@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5c951c0a0c2cb6e4fa1aa89f86229133
+timeCreated: 1491226871
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/TreeStumpB.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 47d3ff531f0c4d04cb02bef2c605d417
+timeCreated: 1492078364
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/sunshade_mtl.mat
+  uploadId: 479688

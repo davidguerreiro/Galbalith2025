@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: afa2c224db629d349a5ce80a20d54ad4
+timeCreated: 1491395925
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/Particles/SmokeFX.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aff679ac859688a429689e18c3e39113
+timeCreated: 1492271027
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/FenceSmallC_2m.prefab
+  uploadId: 479688

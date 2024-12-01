@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 673007a0c790d2247a703c46e4743e00
+timeCreated: 1492279095
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/Tree_B.prefab
+  uploadId: 479688

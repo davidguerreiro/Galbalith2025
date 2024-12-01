@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fd76fadc7fe7fa548a7e1a73e1a7e86c
+timeCreated: 1491836905
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/WelcomePlate_market.prefab
+  uploadId: 479688

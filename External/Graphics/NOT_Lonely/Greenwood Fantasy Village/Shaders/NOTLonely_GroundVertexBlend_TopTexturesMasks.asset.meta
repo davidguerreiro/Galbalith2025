@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42dddd6b014cdd142b23116d9318c762
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_GroundVertexBlend_TopTexturesMasks.asset
+  uploadId: 479688

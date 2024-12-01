@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4a8cf876506c1f542bfcaf69a0c22501
+timeCreated: 1491210753
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/InventoryProps/Shovel.prefab
+  uploadId: 479688

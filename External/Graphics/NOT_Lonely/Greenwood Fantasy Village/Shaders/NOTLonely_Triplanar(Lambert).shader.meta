@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bf8200906acdd6b40b808c778c23cc3a
+timeCreated: 1492371497
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_Triplanar(Lambert).shader
+  uploadId: 479688

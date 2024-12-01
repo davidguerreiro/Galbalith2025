@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 835653e9eea594141ad490ee94412e13
+timeCreated: 1492271877
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GardenBed_Cabbage.prefab
+  uploadId: 479688

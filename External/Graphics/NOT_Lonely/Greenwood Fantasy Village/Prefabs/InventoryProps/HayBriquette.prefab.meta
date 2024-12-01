@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f260b89c5fada8c4488d72f2892cc8df
+timeCreated: 1491210343
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/InventoryProps/HayBriquette.prefab
+  uploadId: 479688

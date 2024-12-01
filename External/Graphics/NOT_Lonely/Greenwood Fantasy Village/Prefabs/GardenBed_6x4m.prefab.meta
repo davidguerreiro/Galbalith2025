@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 395dafe4c2cdda4458e03335f3c8811a
+timeCreated: 1491069265
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GardenBed_6x4m.prefab
+  uploadId: 479688

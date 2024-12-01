@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fdd0bfc17e617594ba50aa0f06d0f107
+timeCreated: 1492458804
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/GroundModules/Ground_16m_HillSmallCornerInside.prefab
+  uploadId: 479688

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28d9975ecd3f1d648b2066d164add92f
+timeCreated: 1490787902
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/WaterFX_mtl.mat
+  uploadId: 479688

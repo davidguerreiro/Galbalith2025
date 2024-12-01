@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 099b126e870f78747a4bfba7e2948403
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Shaders/NOTLonely_GroundVertexBlend_UVcoordinate.asset
+  uploadId: 479688

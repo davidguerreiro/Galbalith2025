@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 631d58fbbca598f4b8ed41f51dd30712
+timeCreated: 1491210533
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/InventoryProps/HaystackA.prefab
+  uploadId: 479688

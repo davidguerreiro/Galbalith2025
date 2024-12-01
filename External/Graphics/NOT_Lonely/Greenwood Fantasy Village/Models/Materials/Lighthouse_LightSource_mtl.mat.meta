@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ba19549af3cd57247b6aaf76f2b03d82
+timeCreated: 1492358550
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/Lighthouse_LightSource_mtl.mat
+  uploadId: 479688

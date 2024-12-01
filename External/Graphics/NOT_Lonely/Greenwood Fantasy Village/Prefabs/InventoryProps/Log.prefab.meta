@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa5e2830e4342e04290b95f13b8a2bfa
+timeCreated: 1491210681
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/InventoryProps/Log.prefab
+  uploadId: 479688

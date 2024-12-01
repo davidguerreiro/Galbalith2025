@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f11cb62f43c2a4b408f343adadbc9483
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22258
+  packageName: Lowpoly Township Set
+  packageVersion: 5.0
+  assetPath: Assets/Lowpoly Township Set/Materials/TerrainLayers/layer_Ground_1.terrainlayer
+  uploadId: 697648

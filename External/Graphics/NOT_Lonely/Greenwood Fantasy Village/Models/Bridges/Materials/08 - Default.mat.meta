@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 853e02b51633c7a4990d15a5a278fb86
+timeCreated: 1500533445
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Bridges/Materials/08
+    - Default.mat
+  uploadId: 479688

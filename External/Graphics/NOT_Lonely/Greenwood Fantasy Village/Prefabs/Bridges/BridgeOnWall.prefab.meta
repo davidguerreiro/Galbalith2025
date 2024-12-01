@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42d7550e22c7e99408a08da0abe4294c
+timeCreated: 1490611192
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/Bridges/BridgeOnWall.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac501f1732854af47abc6a9e0726be78
+timeCreated: 1492709207
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/LightStand_warm_OFF.prefab
+  uploadId: 479688

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b31619e293253914b8799f79412ed527
+timeCreated: 1491595696
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/Texts/Text_River.prefab
+  uploadId: 479688

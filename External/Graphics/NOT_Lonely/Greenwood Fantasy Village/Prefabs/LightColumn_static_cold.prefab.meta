@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bf4202fea7638b449ae7d66a1a5bba2c
+timeCreated: 1492706979
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/LightColumn_static_cold.prefab
+  uploadId: 479688

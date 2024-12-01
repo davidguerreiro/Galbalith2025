@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b7bfdfd3811a646489343859d54ce9ab
+timeCreated: 1492268399
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Models/Materials/Checker_Map.mat
+  uploadId: 479688

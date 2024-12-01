@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 881b4c527e19ffe48939e934397e0781
+timeCreated: 1492278770
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/BushBig_C.prefab
+  uploadId: 479688

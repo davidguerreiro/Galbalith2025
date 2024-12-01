@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e00fe482fe837b94a84d31398b8591d2
+timeCreated: 1492706465
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/LightStand_static_Cold.prefab
+  uploadId: 479688

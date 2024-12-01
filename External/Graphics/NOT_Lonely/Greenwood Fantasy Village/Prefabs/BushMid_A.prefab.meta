@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a762e92ecb46e4f478b7453720a2e526
+timeCreated: 1492278812
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89052
+  packageName: Greenwood Fantasy Village (Modular)
+  packageVersion: 1.3
+  assetPath: Assets/NOT_Lonely/Greenwood Fantasy Village/Prefabs/BushMid_A.prefab
+  uploadId: 479688
