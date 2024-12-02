@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "StatsData", menuName = "Scriptable Objects/StatsData")]
+[CreateAssetMenu(fileName = "StatsData", menuName = "Scriptable Objects/PartyMember/StatsData")]
 
 /**
  * Defines stats data class.
