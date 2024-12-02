@@ -14,7 +14,9 @@ public class PartyMember : MonoBehaviour
     public StatsData agilityData;
     public StatsData nextLevelExpData;
 
-    // TODO: Add exp required for next level data array here.
+    // TODO: Add read data from JSON File.
+    // TODO: Add Get current equipmnent.
+    // TODO: Add equipment values to stats calculation.
 
     [Space(10)]
 
@@ -27,7 +29,7 @@ public class PartyMember : MonoBehaviour
 
     [Header("HP")]
     public int hp;
-    public int maxHp;
+    public int maxHP;
 
     [Header("MP")]
     public int mp;
@@ -57,6 +59,8 @@ public class PartyMember : MonoBehaviour
     void Start()
     {
         RefreshStats();
+        InitHP();
+        InitMP();
     }
 
     /// <summary>
@@ -68,7 +72,7 @@ public class PartyMember : MonoBehaviour
 
         // TODO: Add items and skills increasers.
 
-        maxHp = baseHp;
+        maxHP = baseHp;
     }
 
     /// <summary>
@@ -161,7 +165,7 @@ public class PartyMember : MonoBehaviour
     public void LevelUp()
     {
         level++;
-           
+
         // TEMP MAX LEVEL -- remove after prototype.
         if (level > 15)
         {
@@ -171,11 +175,101 @@ public class PartyMember : MonoBehaviour
         RefreshStats();
     }
 
+    /// <summary>
+    /// Full heal party member.
+    /// </summary>
     public void FullHeal()
     {
-        hp = maxHp;
+        hp = maxHP;
         mp = maxMP;
 
         // TODO: Remove stats.
+    }
+
+    /// <summary>
+    /// Update HP value.
+    /// </summary>
+    /// <param name="value">int</param>
+    public void UpdateHP(int value)
+    {
+        hp += value;
+
+        if (hp > maxHP)
+        {
+            hp = maxHP;
+        }
+
+        if (hp < 0)
+        {
+            hp = 0;
+        }
+
+        // TODO: Add K.0 status.
+    }
+
+    /// <summary>
+    /// Update MP value.
+    /// </summary>
+    /// <param name="value">int</param>
+    public void UpdateMP(int value)
+    {
+        mp += value;
+
+        if (mp > maxMP)
+        {
+            mp = maxMP;
+        }
+
+        if (mp < 0)
+        {
+            mp = 0;
+        }
+    }
+
+    /// <summary>
+    /// Init HP value.
+    /// </summary>
+    public void InitHP()
+    {
+        hp = maxHP;
+
+        // TODO: Read data from JSON File when loading game.
+    }
+
+    /// <summary>
+    ///  Init MP value.
+    /// </summary>
+    public void InitMP()
+    {
+        mp = maxMP;
+
+        // TODO: Read data from JSON File when loading game.
+    }
+
+    /// <summary>
+    /// Get party member ID.
+    /// </summary>
+    /// <returns>int</returns>
+    public string GetID()
+    {
+        return staticData.id;
+    }
+
+    /// <summary>
+    /// Get party member Display Name.
+    /// </summary>
+    /// <returns>string</returns>
+    public string GetDisplayName()
+    {
+        return staticData.displayName;
+    }
+
+    /// <summary>
+    /// Get party member face sprite.
+    /// </summary>
+    /// <returns>Sprite</returns>
+    public Sprite GetMemberIcon()
+    {
+        return staticData.faceSprite;
     }
 }

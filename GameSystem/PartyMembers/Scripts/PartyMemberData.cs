@@ -5,10 +5,9 @@ public class PartyMemberData : ScriptableObject
 {
     [Header("Base Settings")]
     public string id;
-    public string display_name_en;
-    public string display_name_es;
+    public string displayName;
 
     [Space(10)]
 
-    public Sprite face_sprite;
+    public Sprite faceSprite;
 }
