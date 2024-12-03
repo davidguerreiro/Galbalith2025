@@ -14,6 +14,7 @@ using UnityEngine;
 public class GameSystem : MonoBehaviour
 {
     public PartyMembers partyMembers;
+    public Inventory inventory;
 
     private void Start()
     {

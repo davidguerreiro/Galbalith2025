@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PartyMember : MonoBehaviour
@@ -43,7 +44,8 @@ public class PartyMember : MonoBehaviour
     public int magic;
     public int agility;
 
-    // TODO: Add status array.
+    [Space(10)]
+    public List<string> statusCondition = new List<string>(); 
 
     [Space(10)]
 
@@ -227,6 +229,37 @@ public class PartyMember : MonoBehaviour
     }
 
     /// <summary>
+    /// Add status condition to party member.
+    /// </summary>
+    /// <param name="statusId"></param>
+    public void AddStatusCondition(string statusId)
+    {
+        if (! statusCondition.Contains(statusId)) {
+            statusCondition.Add(statusId);
+        }
+    }
+
+    /// <summary>
+    /// Remove status condition.
+    /// </summary>
+    /// <param name="statusId">string</param>
+    public void RemoveStatusCondition(string statusId)
+    {
+        if (statusCondition.Contains(statusId))
+        {
+            statusCondition.Remove(statusId);
+        }
+    }
+
+    /// <summary>
+    /// Remove all status conditions.
+    /// </summary>
+    public void RemoveAllStatusConditions()
+    {
+        statusCondition.Clear();
+    }
+
+    /// <summary>
     /// Init HP value.
     /// </summary>
     public void InitHP()
@@ -271,5 +304,100 @@ public class PartyMember : MonoBehaviour
     public Sprite GetMemberIcon()
     {
         return staticData.faceSprite;
+    }
+
+    /// <summary>
+    /// Equip Weapon.
+    /// </summary>
+    /// <param name="weapon">string</param>
+    public void EquipWeapon(string weapon)
+    {
+        this.weapon = weapon;
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Remove weapon.
+    /// </summary>
+    public void RemoveWeapon()
+    {
+        this.weapon = "";
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Equip shield.
+    /// </summary>
+    /// <param name="shield">string</param>
+    public void EquipShield(string shield)
+    {
+        this.shield = shield;
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Remove shield.
+    /// </summary>
+    public void RemoveShield()
+    {
+        this.shield = "";
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Equip helmet.
+    /// </summary>
+    /// <param name="helmet">string</param>
+    public void EquipHelmet(string helmet)
+    {
+        this.helmet = helmet;
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Remove helmet.
+    /// </summary>
+    public void RemoveHelmet()
+    {
+        this.helmet = "";
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Equip armor.
+    /// </summary>
+    /// <param name="armor">string</param>
+    public void EquipArmor(string armor)
+    {
+        this.armor = armor;
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Remove armor.
+    /// </summary>
+    public void RemoveArmor()
+    {
+        this.armor = "";
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Equip accessory.
+    /// </summary>
+    /// <param name="accesory">string</param>
+    public void EquipAccesory(string accesory)
+    {
+        this.accesory = accesory;
+        RefreshStats();
+    }
+
+    /// <summary>
+    /// Remove accesory.
+    /// </summary>
+    public void RemoveAccesory()
+    {
+        this.accesory = "";
+        RefreshStats();
     }
 }

@@ -15,5 +15,7 @@ public class StatusCondition : ScriptableObject
     [TextArea(4, 99)]
     public string descriptionEs;
 
+    public StatusCondition[] removedStatus;
+
     public bool removedAfterBattle;
 }
