@@ -9,5 +9,5 @@ public class PartyMemberData : ScriptableObject
 
     [Space(10)]
 
-    public Sprite faceSprite;
+    public Sprite faceSprite;   
 }

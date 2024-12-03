@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d570a448fa2ecc4e8c0cfb01e2235e7, type: 3}
+  m_Name: Confusion
+  m_EditorClassIdentifier: 
+  id: confusion
+  displayNameEn: Confusion
+  displayNameEs: "Confusi\xF3n"
+  icon: {fileID: 0}
+  descriptionEn: Battler loses control of himself, attacking random enemies, allies
+    and even himself. Removed when receiving a physical hit.
+  descriptionEs: "El miembro del equipo pierde el control de sus acciones, atacando
+    indiscriminadamente a aliados y enemigos e incluso a si mismo. Se cura si se
+    recibe un ataque f\xEDsimo."
+  removedAfterBattle: 1

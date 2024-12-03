@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d570a448fa2ecc4e8c0cfb01e2235e7, type: 3}
+  m_Name: MAGDown
+  m_EditorClassIdentifier: 
+  id: magdown
+  displayNameEn: MAG Down
+  displayNameEs: MAG Down
+  icon: {fileID: 0}
+  descriptionEn: Decreases Magic by 8% for 20 turns.
+  descriptionEs: Reduce la Magia un 8% durante 20 turnos.
+  removedAfterBattle: 1

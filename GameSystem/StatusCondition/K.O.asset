@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d570a448fa2ecc4e8c0cfb01e2235e7, type: 3}
+  m_Name: K.O
+  m_EditorClassIdentifier: 
+  id: ko
+  displayNameEn: K.O
+  displayNameEs: K.O
+  icon: {fileID: 0}
+  descriptionEn: This state is reached every time a battler has 0 HP points. When
+    in K.O, the battler is unable to perform any action. If all party members are
+    in K.0 status, the game is over.
+  descriptionEs: "Este estado solo se alcanza en el momento en el que un miembro
+    del equipo se queda sin HP. En este estado no se puede realizar ninguna aci\xF3n
+    de combate. Si todos los miembros del equipo est\xE1n en estado K.0 se termina
+    el juego."
+  removedAfterBattle: 0
