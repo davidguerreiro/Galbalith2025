@@ -43,4 +43,11 @@ public class WeaponData : ScriptableObject
 
     [Header("Other options")]
     public float hitRatio;
+
+    [Space(10)]
+
+    [Header("Skills")]
+    public Skill[] magicSkills;
+    public Skill[] activeSkills;
+    public Skill[] passiveSkills;
 }

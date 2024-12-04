@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +13,11 @@ public class Inventory : MonoBehaviour
 {
     [SerializeField]
     public List<InventoryList> items;
+
+    [SerializeField]
     public List<InventoryList> weapons;
+
+    [SerializeField]
     public List<InventoryList> armors;
 
     public Consumable[] itemsReference;
@@ -193,5 +198,51 @@ public class Inventory : MonoBehaviour
     public InventoryList HasArmor(string id)
     {
         return armors.Find(i => i.id == id);
+    }
+
+    /// <summary>
+    /// Get item from items reference if
+    /// in inventary.
+    /// </summary>
+    /// <param name="id">string</param>
+    /// <returns>Consumable</returns>
+    public Consumable GetItem(string id)
+    {
+        if (HasItem(id) != null)
+        {
+            return Array.Find(itemsReference, item => item.data.id == id);
+        }
+
+        return null;
+    }
+
+    /// <summary>
+    /// Get weapon from weapon reference.
+    /// </summary>
+    /// <param name="id">string</param>
+    /// <returns>Weapon</returns>
+    public Weapon GetWeapon(string id)
+    {
+        if (HasWeapon(id) != null)
+        {
+            return Array.Find(weaponReference, weapon => weapon.data.id == id);
+        }
+
+        return null;
+    }
+
+    /// <summary>
+    /// Get armor from armor reference.
+    /// </summary>
+    /// <param name="id">id</param>
+    /// <returns>Armor</returns>
+    public Armor GetArmor(string id)
+    {
+        if (HasArmor(id) != null)
+        {
+            return Array.Find(armorReference, armor => armor.data.id == id);
+        }
+
+        return null;
     }
 }

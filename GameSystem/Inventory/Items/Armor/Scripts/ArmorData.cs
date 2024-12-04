@@ -47,4 +47,11 @@ public class ArmorData : ScriptableObject
 
     [Header("Wield By")]
     public PartyMemberData[] wieldBy;
+
+    [Space(10)]
+
+    [Header("Skills")]
+    public Skill[] magicSkills;
+    public Skill[] activeSkills;
+    public Skill[] passiveSkills;
 }

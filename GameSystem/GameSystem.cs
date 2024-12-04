@@ -15,7 +15,8 @@ public class GameSystem : MonoBehaviour
 {
     public PartyMembers partyMembers;
     public Inventory inventory;
-
+    public Skills skills;
+        
     private void Start()
     {
         InitGameSystem();

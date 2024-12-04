@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e549e581c121b194fbf6bf44ba52daab, type: 3}
+  m_Name: Vaccinated
+  m_EditorClassIdentifier: 
+  id: vaccinated
+  displayNameEn: Vaccinated
+  displayNameEs: Vacunado
+  icon: {fileID: 0}
+  descriptionEn: Prevents poison.
+  descriptionEs: Previene el envenenamiento.
+  type: 2
+  element: {fileID: 0}
+  spToLearn: 30
+  mpCost: 0
+  hitRatio: 0
+  basePower: 0
+  usePhysicalDamage: 0
+  battleAnim: {fileID: 0}
+  scope: 0
+  usableInMenu: 0
+  statusToAdd: {fileID: 0}
+  chanceToAdd: 0
+  statusToRemove: {fileID: 0}
+  chanceToRemove: 0
+  preventStuatusCondition:
+  - {fileID: 11400000, guid: 59940bbcecc358f469e9ff416fc49f4b, type: 2}
