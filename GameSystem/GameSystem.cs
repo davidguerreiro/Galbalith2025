@@ -13,9 +13,18 @@ using UnityEngine;
 /// </summary>
 public class GameSystem : MonoBehaviour
 {
+    [Header("Game System Components")]
     public PartyMembers partyMembers;
     public Inventory inventory;
     public Skills skills;
+    public Gold gold;
+
+    [Header("Game Progression Variables")]
+    public BooleanVars mainQuestVars;
+    public BooleanVars secondaryQuestVars;
+    public BooleanVars chestsVars;
+    public BooleanVars huntingVars;
+    public BooleanVars otherVars;
         
     private void Start()
     {
