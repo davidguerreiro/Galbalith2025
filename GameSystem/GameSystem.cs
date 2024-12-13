@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 /// <summary>
@@ -18,6 +19,7 @@ public class GameSystem : MonoBehaviour
     public Inventory inventory;
     public Skills skills;
     public Gold gold;
+    public PlayingTime playingTime;
 
     [Header("Game Progression Variables")]
     public BooleanVars mainQuestVars;
@@ -25,6 +27,10 @@ public class GameSystem : MonoBehaviour
     public BooleanVars chestsVars;
     public BooleanVars huntingVars;
     public BooleanVars otherVars;
+
+    [Header("Game System Static Data")]
+    public Elements[] elements;
+    public StatusCondition[] statusConditions;
         
     private void Start()
     {
@@ -36,5 +42,26 @@ public class GameSystem : MonoBehaviour
     {
         // init party members
         partyMembers.InitPartyMembers();
+    }
+
+    /// <summary>
+    /// Get element from elements static data.
+    /// </summary>
+    /// <param name="elementID">string</param>
+    /// <returns>Elements</returns>
+    public Elements GetElement(string id)
+    {
+        return Array.Find(elements, (element => element.id == id));
+    }
+
+    /// <summary>
+    /// Get status codition from status condition
+    /// static data.
+    /// </summary>
+    /// <param name="id">string</param>
+    /// <returns>StatusCondition</returns>
+    public StatusCondition GetStatusCondition(string id)
+    {
+        return Array.Find(statusConditions, (statusCondition => statusCondition.id == id));
     }
 }

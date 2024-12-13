@@ -15,7 +15,7 @@ public class PlayingTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (clock != null)
+        if (clock == null)
         {
             clock = StartCoroutine(UpdateClock());
         }
@@ -41,7 +41,7 @@ public class PlayingTime : MonoBehaviour
             hours++;
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         clock = null;
     }
 
@@ -55,6 +55,6 @@ public class PlayingTime : MonoBehaviour
         string minutes = this.minutes < 10 ? "0" + this.minutes.ToString() : this.minutes.ToString();
         string seconds = this.seconds < 10 ? "0" + this.seconds.ToString() : this.seconds.ToString();
 
-        return hours + ":" + minutes + ":" + seconds;
+        return hours + " : " + minutes + " : " + seconds;
     }
 }

@@ -44,6 +44,7 @@ public class ArmorData : ScriptableObject
     [Header("Elements")]
     public Elements[] resists;
     public Elements[] weakBy;
+    public Elements[] absorb;
 
     [Header("Wield By")]
     public PartyMemberData[] wieldBy;

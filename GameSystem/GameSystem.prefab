@@ -32,6 +32,53 @@ Transform:
   - {fileID: 2037046115452188430}
   m_Father: {fileID: 1147173785740096817}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974090159735026047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2914546413029436994}
+  - component: {fileID: 7413193598556770215}
+  m_Layer: 0
+  m_Name: PlayingTime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2914546413029436994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974090159735026047}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.272419, y: 7.4572687, z: 0.03389302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4504880721494474412}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7413193598556770215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974090159735026047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed6790b7d4c6b8d45bc82ef8524ad401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hours: 0
+  minutes: 0
+  seconds: 0
 --- !u!1 &1403750478876216878
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +749,7 @@ Transform:
   - {fileID: 3070410469488006599}
   - {fileID: 6819556356766139947}
   - {fileID: 2828503298029677891}
+  - {fileID: 2914546413029436994}
   - {fileID: 9072985873616887235}
   - {fileID: 4277056110164879475}
   m_Father: {fileID: 0}
@@ -722,11 +770,38 @@ MonoBehaviour:
   inventory: {fileID: 6161973272772935797}
   skills: {fileID: 1720485590741078716}
   gold: {fileID: 2836430435038989632}
+  playingTime: {fileID: 7413193598556770215}
   mainQuestVars: {fileID: 8827681919169305745}
   secondaryQuestVars: {fileID: 4481509273797020997}
   chestsVars: {fileID: 1246824017452883050}
   huntingVars: {fileID: 2692541906691915722}
   otherVars: {fileID: 36789814470535228}
+  elements:
+  - {fileID: 11400000, guid: 4b086279b30a3f0479a518b9a093f156, type: 2}
+  - {fileID: 11400000, guid: 57fd6159ab700af40becb3c01868466a, type: 2}
+  - {fileID: 11400000, guid: 3902ff658d6c71d4ab537fb62e9daa0c, type: 2}
+  - {fileID: 11400000, guid: cd2a9361b05d04a4ebbaf1bd61b3006b, type: 2}
+  - {fileID: 11400000, guid: e3f20f1ff236c364a845ddd7270e2593, type: 2}
+  - {fileID: 11400000, guid: 961de851c5dd9764ba9bee839e91ca76, type: 2}
+  - {fileID: 11400000, guid: a327a7f1b5a034447bc1d2683c3754cb, type: 2}
+  - {fileID: 11400000, guid: 3dbc3ceafdfa8e34689f403aa95c63ac, type: 2}
+  statusConditions:
+  - {fileID: 11400000, guid: e4b55a223460b6e4f847210b51fb92f8, type: 2}
+  - {fileID: 11400000, guid: 59940bbcecc358f469e9ff416fc49f4b, type: 2}
+  - {fileID: 11400000, guid: 480d12bb8a9d3114dbab55982683d791, type: 2}
+  - {fileID: 11400000, guid: 6a1bdbce833162a48bebacd641e5683a, type: 2}
+  - {fileID: 11400000, guid: 06350fd133e63a048b4dcbfdce910eec, type: 2}
+  - {fileID: 11400000, guid: 07da1505bd7e2dd46a4798f9171de605, type: 2}
+  - {fileID: 11400000, guid: ea8f42c23a19cd849b16f43ee60ddaf6, type: 2}
+  - {fileID: 11400000, guid: ea3bddf8b4bf7154d9ed28765e9a7395, type: 2}
+  - {fileID: 11400000, guid: 35df9a9115ab90243b6eec004283536e, type: 2}
+  - {fileID: 11400000, guid: dc9cff1e53080614d944c25d8da6446c, type: 2}
+  - {fileID: 11400000, guid: 6e54e15e7c79ec347b1284e8455c1493, type: 2}
+  - {fileID: 11400000, guid: 88b5a0acf76935e40a78911d99916870, type: 2}
+  - {fileID: 11400000, guid: b61940e91b991184c982431c59782f66, type: 2}
+  - {fileID: 11400000, guid: ad4f4b19f4c3db54d93fb0576aa24f10, type: 2}
+  - {fileID: 11400000, guid: 5b2d2eb3b5c6e6847a3f022f046b11e2, type: 2}
+  - {fileID: 11400000, guid: 21d330e9919449d4fb49cc95aa3244d7, type: 2}
 --- !u!1 &6190991775916152291
 GameObject:
   m_ObjectHideFlags: 0

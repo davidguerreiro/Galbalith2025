@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: FidiasData
   m_EditorClassIdentifier: 
   id: fidias
-  display_name_en: Fidias
-  display_name_es: Fidias
-  face_sprite: {fileID: -920060826, guid: e762c7ad2d68d0b4b8f22c4369b21e67, type: 3}
+  displayName: Fidias
+  faceSprite: {fileID: -920060826, guid: e762c7ad2d68d0b4b8f22c4369b21e67, type: 3}

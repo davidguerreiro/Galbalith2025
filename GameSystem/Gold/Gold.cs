@@ -26,4 +26,21 @@ public class Gold : MonoBehaviour
             gold = MAX_GOLD;
         }
     }
+
+    /// <summary>
+    /// Get gold as string text.
+    /// </summary>
+    /// <param name="includeGoldText">bool</param>
+    /// <returns>string</returns>
+    public string GetGoldString(bool includeGoldText = true)
+    {
+        string goldText = gold.ToString();
+
+        if (includeGoldText)
+        {
+            goldText += " Pesetas";
+        }
+
+        return goldText;
+    }
 }

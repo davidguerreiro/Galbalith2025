@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [System.Serializable]
@@ -9,6 +10,51 @@ public class SkillItem
     public bool available;
     public bool learned;
     public bool enabled;
+}
+
+[System.Serializable]
+public class ElementResistance
+{
+    public string id;
+    public float resistance;
+
+    private const float MAX_VALUE = 100f;
+    private const float MIN_VALUE = -100f;
+
+    /// <summary>
+    /// Update resistance value.
+    /// </summary>
+    /// <param name="toAdd">float</param>
+    public void UpdateResistance(float toAdd)
+    {
+        resistance += toAdd;
+
+        if (resistance > MAX_VALUE)
+        {
+            resistance = MAX_VALUE;
+        }
+
+        if (resistance < MAX_VALUE)
+        {
+            resistance = MAX_VALUE;
+        }
+    }
+
+    /// <summary>
+    /// Sets resistance as damage absorbed.
+    /// </summary>
+    public void SetAbsorb()
+    {
+        resistance = -1f;
+    }
+
+    /// <summary>
+    /// Restores resistance value.
+    /// </summary>
+    public void Clear()
+    {
+        resistance = 0f;
+    }
 }
 
 public class PartyMember : MonoBehaviour
@@ -81,18 +127,23 @@ public class PartyMember : MonoBehaviour
     [SerializeField]
     public List<SkillItem> passiveSkills;
 
+    [Space(10)]
+
+    [Header("Elemental Resistances")]
+    public List<ElementResistance> elementsResistances = new List<ElementResistance>();
+
+    [Space(10)]
+
     [Header("Component References")]
     public Inventory inventory;
     public Skills skills;
+
 
     private Weapon weaponRef;
     private Armor shieldRef;
     private Armor helmetRef;
     private Armor armorRef;
     private Armor accesoryRef;
-
-    
-
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -108,6 +159,29 @@ public class PartyMember : MonoBehaviour
         RefreshStats();
         InitHP();
         InitMP();
+
+        // Set elemental resistances.
+        ClearResistances();
+
+        if (shieldRef != null)
+        {
+            CalculateElementResistances(shieldRef);
+        }
+
+        if (helmetRef != null)
+        {
+            CalculateElementResistances(helmetRef);
+        }
+
+        if (armorRef != null)
+        {
+            CalculateElementResistances(armorRef);
+        }
+        if (accesoryRef != null)
+        {
+            CalculateElementResistances(accesoryRef);
+        }
+
     }
 
     /// <summary>
@@ -285,6 +359,60 @@ public class PartyMember : MonoBehaviour
         else
         {
             accesoryRef = null;
+        }
+    }
+
+    /// <summary>
+    
+    /// </summary>
+    public void CalculateElementResistances(Armor armorItem)
+    {
+        // calculate resistances.
+        foreach (Elements elementResists in armorItem.data.resists)
+        {
+            foreach (ElementResistance elementResistance in elementsResistances)
+            {
+                if (elementResistance.id == elementResists.id)
+                {
+                    elementResistance.UpdateResistance(20f);
+                }
+            }
+        }
+
+        // calculate weakness.
+        foreach (Elements elementWeakness in armorItem.data.weakBy)
+        {
+            foreach (ElementResistance elementResistance in elementsResistances)
+            {
+                if (elementResistance.id == elementWeakness.id)
+                {
+                    elementResistance.UpdateResistance(-20f);
+                }
+            }
+        }
+
+        // calculate absorb.
+        foreach (Elements elementAbsorb in armorItem.data.absorb)
+        {
+            foreach (ElementResistance elementResistance in elementsResistances)
+            {
+                if (elementResistance.id == elementAbsorb.id)
+                {
+                    elementResistance.SetAbsorb();
+                }
+            }
+        }
+
+    }
+
+    /// <summary>
+    /// Clear all resistances.
+    /// </summary>
+    public void ClearResistances()
+    {
+        foreach (ElementResistance elementResistance in elementsResistances)
+        {
+            elementResistance.Clear();
         }
     }
 
